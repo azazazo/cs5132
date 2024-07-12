@@ -8,4 +8,4 @@ pls dont plagiarise 😿😿🙏
 
 > "OO seems to bring at least as many problems to the table as it solves." - Jeff Atwood 
 
-![help me i hate java](yg5mmfj0hr1c1.png)
+![help me i hate java](yg5mmfj0hr1c1.png "java was a mistake")
