@@ -14,14 +14,14 @@ public class WordCount {
         // Complete the code below this comment
         try {
             String content = Files.readString(Paths.get(filename));
-            content = content.toLowerCase().replaceAll("[^a-z ]", "");
+            content = content.toLowerCase().replace('\n', ' ').replaceAll("[^a-z ]", "");
             dictionary = new HashMap<>();
             for (String word : content.split(" ")) {
                 if (!dictionary.containsKey(word)) dictionary.put(word, 1);
                 else dictionary.put(word, dictionary.get(word) + 1);
             }
-        } catch (Exception ignored) {
-            System.out.printf("womp %s\n", ignored.getMessage());
+        } catch (Exception e) {
+            System.out.printf("womp %s\n", e.getMessage());
         }
     }
 
